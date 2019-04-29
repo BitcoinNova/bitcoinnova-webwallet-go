@@ -60,7 +60,7 @@ DB_USER=<postgres username> \ # Postgres DB username, NOT system account usernam
 DB_PWD=<postgres password> \ # Postgres DB password, NOT system account password
 HOST_URI='http://localhost' \ # Internal wallet api
 HOST_PORT=':8082' \ # Internal wallet api port
-RPC_PWD=<BitNovex-service RPC password>  \ # Your Bitcoinnova-service RPC password
+RPC_PWD=<Bitcoinnova-service RPC password>  \ # Your Bitcoinnova-service RPC password
 RPC_PORT=':8070' \ # Your Bitcoinnova-service RPC port
 go run wallet.go utils.go
 ```
